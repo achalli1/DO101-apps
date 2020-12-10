@@ -2,7 +2,7 @@
 #$Servers = get-vmhost -Location ((get-vmhost ((Get-VM -Name smallvm).vmhost)).Parent.name) | Where-Object Connectionstate -eq "connected"
 #$dstore = get-datastore -id ((get-vmhost -Location ((get-vmhost ((Get-VM -Name smallvm).vmhost)).Parent.name) | Where-Object Connectionstate -eq "connected").datastoreidlist)
 
-########for my labvv
+########for my labvvxx
 
 
 
